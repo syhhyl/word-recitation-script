@@ -105,7 +105,7 @@ void quiz() {
             total_wrong_answers++;
         }
     }
-	printf("你一共错了%d道题,你怎么睡得着的", total_wrong_answers);
+	printf("你一共错了%d道题,你怎么睡得着的\n", total_wrong_answers);
     printf("所有单词都已经过完，以下是你答错的题目：\n");
     for (int i = 0; i < total_wrong_answers; i++) {
         printf("单词: %s, 正确答案: %s\n", wrong_answers[i].word, wrong_answers[i].correct_answer);
